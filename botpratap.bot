@@ -1,0 +1,121 @@
+{
+    "name": "botpratap",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "botpratap",
+            "tenantId": "92f36a5a-51f5-478e-8883-2c913f675df6",
+            "subscriptionId": "3c9a047b-4555-4489-8e60-5978b5b17cc6",
+            "resourceGroup": "botpratap",
+            "serviceName": "botpratap",
+            "appId": "19d47e0b-8752-4dd5-88f6-61c41e75c9c5"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "19d47e0b-8752-4dd5-88f6-61c41e75c9c5",
+            "appPassword": "XSxhIdpSjQXLy6C/28KdIA==!93ULlUSCsWQxyldO5RKhyipSWS9N6UnGMzV02pmyLeo=",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "19d47e0b-8752-4dd5-88f6-61c41e75c9c5",
+            "appPassword": "Ws5A3WRB4oqkxC1JD38EnQ==!IcAm33cQqwoNQ2E0PvHq2n7f885myGMACMnX0Cg4+hI=",
+            "endpoint": "https://botpratap.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "92f36a5a-51f5-478e-8883-2c913f675df6",
+            "subscriptionId": "3c9a047b-4555-4489-8e60-5978b5b17cc6",
+            "resourceGroup": "botpratap",
+            "name": "botpratap",
+            "serviceName": "botpratap",
+            "instrumentationKey": "lQqTzVVIQz39etI3RkVUeg==!/cbotFo6Uf5/en1LSacbsuIAR3Pebtn7HvaAoZnTvYX9BAeVZHVol25GARtTD/2I",
+            "applicationId": "e4b541c6-8b77-4c1a-96b3-4790af315ca2",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "botpratap",
+            "serviceName": "botpratap",
+            "tenantId": "92f36a5a-51f5-478e-8883-2c913f675df6",
+            "subscriptionId": "3c9a047b-4555-4489-8e60-5978b5b17cc6",
+            "resourceGroup": "botpratap",
+            "connectionString": "Tt9IUN2a3fq+rk6aTm1eGg==!reOApqNJuMzzGv2s0X+TGLkXPOZ0pxiVZFyiNSbjBZ7WIYU0RCrzh2tI1293CpAz2Fq5HWAMDXf1VI613gHPrbDQoc2s8oS4GAYB03sx8JF2rIgeVxWdPzzPjMyw0hiQZsUNiEFDM9iSCcAPMyt3b3MB/gEJxR2CdwII/qHHPz0VIkQHcHStzkL1TWr7zDeoY2lJLjv+mYfxgJzDDYu8oHPPXsJehINPr1+De+r8xeizXZal2fzl3Wy+XU4uynGD",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "botpratap",
+            "serviceName": "botpratap",
+            "tenantId": "92f36a5a-51f5-478e-8883-2c913f675df6",
+            "subscriptionId": "3c9a047b-4555-4489-8e60-5978b5b17cc6",
+            "resourceGroup": "botpratap",
+            "endpoint": "https://botpratap.documents.azure.com:443/",
+            "key": "wFrJydui8t/rgdXIRUM2DQ==!KaihB/l5P7Jno/z/46ipr9lnbD/17ri0w2hJbY22UBgiTL1/a9280ipYtfqAqG3bszk0oSTqZPAjuLct0lK8GN50QpaQ7TN1OKKKR+xocHjkY4CXu4jF3sRL7Q9dcqz5",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "botpratap_General",
+            "appId": "02ff52bd-0f79-4974-b82e-45e101315975",
+            "authoringKey": "MGd/xBL7WrN3lEcMgWC9Vg==!Rd4HWxeTNSd0mj8Mll8rjqpdl4IpgnabU6eB97yy/Sl4FWgAbH03u4M/34SHXvDw",
+            "subscriptionKey": "J/hQ7348GJ1D2AXs1g5P9Q==!I33LGWN7xb1UqmcRzeiitdXoofbrdc69vDdtELualNUQcDF0yNr4xpP/z+nJNkO7",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "12b74cfb-9535-4115-80b0-8fbc901d3146",
+            "subscriptionKey": "QXLSS33I0taBpLRQTOWTVQ==!A17yyi/ng4roAiPHgzp32Cw7inyN1Rlhd+kmlWDcgjN6eqYlzJ0+WMeG+3P41yuX",
+            "endpointKey": "JJ+L1ZkhJDJBg5mj0gVB3g==!dX+QP5e10blqLwQmNDtBf6LD6pwpbBDiffLyp5PUbQjLq6dxA+gI8k1alvVhBazh",
+            "hostname": "https://botpratap-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "qna",
+            "name": "ChitChat",
+            "id": "chitchat",
+            "kbId": "a15d776a-1d70-423e-b394-7c547cb79361",
+            "subscriptionKey": "a08GgFTpDsWsDXN3pEucxQ==!J+dqu9GKsH7bgjAJFo7P+Bq8fltE6N5Q+rGWC49t1c2NhhTBjKEsRFrS/9mGwNkW",
+            "endpointKey": "mdJL1SNEbmxL7oxbKHV22g==!zZ8D9/a2g8Z2LTebw6OA+79NvlCu2voyj8ZVbwTqw9R6u4TFalGRuutvT68AZNzX",
+            "hostname": "https://botpratap-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq",
+                "chitchat"
+            ],
+            "name": "botpratap_Dispatch",
+            "appId": "cfa7097e-1de4-4c08-a0b0-66251e59d099",
+            "authoringKey": "fSwbIohQAbquVU78t7Ne7Q==!dDP9btIjtjurOOysbQiFm1UVoCalaTwmRwVxbzbu/PIrkmuCal1cLukmCHpKcqGx",
+            "subscriptionKey": "FDd/+MnU6kOE558ZeK2feA==!zJzp7PlXuiJ3nSWZPy+JFj5wUxPNPnqJuIyLSqky/M/g/kUuCjPPFLbJy5zxC2K2",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "19d47e0b-8752-4dd5-88f6-61c41e75c9c5",
+            "appPassword": "8N2VQznXoV0gg7b0bynpWQ==!TeAzcraqOahhomqSXk+e3DiyJgeaX2JzOS5vrxhaW7k=",
+            "endpoint": "https://botpratap.azurewebsites.net/api/messages",
+            "id": "53"
+        }
+    ],
+    "padlock": "GqGf4FsZ3bKdnxhgQZrt1A==!PejmZCfcuHKR2EJmq671B/ia3WEKea8PCY63L1vGmWRD/OvLGMomMdS0EVNJVjbF",
+    "version": "2.0"
+}

@@ -1,0 +1,1 @@
+az bot publish --resource-group botpratap -n botpratap --subscription 3c9a047b-4555-4489-8e60-5978b5b17cc6 -v v4 
